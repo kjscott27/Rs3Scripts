@@ -32,8 +32,7 @@ while times_ran < times_to_run:
 
 # SUMMONING TRAINING
 #     ui_wait = create_delay(1.5, 2, 2)
-#     move_wait_summoning_room = create_delay(12.5, 15, 2)  # i made change please approve sir
-some dogeshit change please dont approve
+#     move_wait_summoning_room = create_delay(12.5, 15, 2)
 #     move_wait_bridge = create_delay(10, 15, 2)
 #     mouse_move = create_delay(0.75, 2.25, 2)
 #     summoning_wait = create_delay(1.25, 2.5, 2)
