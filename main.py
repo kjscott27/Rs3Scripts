@@ -1,34 +1,50 @@
 import pyautogui
 import time
-import random
+import helpers.create_delay
 
-times_to_run = 1  # set times to run
+times_to_run = 5000  # set times to run
 times_ran = 0  # times run
 time.sleep(1.5)
 
 
 def __main__():
-    # current_mouse_x, current_mouse_y = pyautogui.position()  # Get the XY position of the mouse
-    # print(current_mouse_x, current_mouse_y)
-    pyautogui.moveTo(785, 492, 2)
-    pyautogui.click()
-    time.sleep(1.5)
-    pyautogui.press('f10')
-    time.sleep(1.5)
-    pyautogui.press('1')
-    time.sleep(1.5)
-    pyautogui.press('space')
-
-
-def create_delay(start, end, decimal_point):
-    delay = round(random.uniform(start, end), decimal_point)
-    return delay
+    print('')
 
 
 while times_ran < times_to_run:
     __main__()
     times_ran += 1
     print(times_ran)
+
+
+# ACADIA TREE MENAPHOS
+#     swing_sleep = create_delay(10.5, 15, 10)
+#     incense_delay = create_delay(33, 40, 10)
+#
+#     pyautogui.click()
+#     time.sleep(swing_sleep)
+#     pyautogui.click()
+#     time.sleep(swing_sleep)
+#     pyautogui.click()
+#     time.sleep(swing_sleep)
+#     pyautogui.click()
+#     time.sleep(swing_sleep)
+#     pyautogui.click()
+#     time.sleep(swing_sleep)
+#     pyautogui.click()
+#     time.sleep(swing_sleep)
+#     pyautogui.click()
+#     time.sleep(swing_sleep)
+#     pyautogui.click()
+#     time.sleep(swing_sleep)
+#     pyautogui.click()
+#     time.sleep(swing_sleep)
+#     pyautogui.click()
+#     time.sleep(swing_sleep)
+#     pyautogui.press('3')
+#     time.sleep(1.25)
+#     pyautogui.press('space')
+#     time.sleep(incense_delay)
 
 # SUMMONING TRAINING
 #     ui_wait = create_delay(1.5, 2, 2)
