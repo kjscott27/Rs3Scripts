@@ -4,6 +4,7 @@ import time
 from helpers.usage_message import usage_message
 from helpers.parse_args import parse_args
 
+
 def main(inputArg):
     times_to_run = 1  # set times to run
     times_ran = 0  # times the program has run --this should NOT need to be changed--
