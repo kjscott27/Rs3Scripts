@@ -1,5 +1,5 @@
 # Description
-This is a pack of scripts that can be run in certain places for certain skills to maximise AFKability of certain skills while being away from the desktop entirely.
+This is a pack of scripts that can be run in certain places to maximise AFKability of certain skills while being away from the desktop entirely.
 
 ## Skills
 - Agility (Ape Atoll ONLY so far)
