@@ -3,7 +3,7 @@ import time
 from helpers.create_delay import create_delay
 
 
-def agility():
+def agility(times_ran):
     # APE ATOLL COURSE, START FROM ENDING
     mouse_tween = create_delay(1, 2, 2)
     # OBSTACLE 1

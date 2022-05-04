@@ -3,7 +3,7 @@ import time
 from helpers.create_delay import create_delay
 
 
-def cooking():
+def cooking(times_ran):
     cook_wait = create_delay(70, 75, 2)
     pyautogui.moveTo(852, 760, duration=1.5, tween=pyautogui.easeInOutQuad)  # move to range
     pyautogui.click()

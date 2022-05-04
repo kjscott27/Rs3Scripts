@@ -3,7 +3,7 @@ import time
 from helpers.create_delay import create_delay
 
 
-def smithing():
+def smithing(times_ran):
     smith_delay = create_delay(45, 55, 2)
     heat_delay = create_delay(8, 12, 2)
     pyautogui.click()

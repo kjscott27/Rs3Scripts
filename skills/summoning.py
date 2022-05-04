@@ -3,7 +3,7 @@ import time
 from helpers.create_delay import create_delay
 
 
-def summoning():
+def summoning(times_ran):
     local_runs = 0
     ui_wait = create_delay(1.5, 2, 2)
     move_wait_summoning_room = create_delay(12.5, 15, 2)

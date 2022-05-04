@@ -2,19 +2,19 @@ import pyautogui
 import time
 from helpers.create_delay import create_delay
 
+local_runs = 0
 
-def mining():
-    local_runs = 0
-    random_mining_wait1 = create_delay(5, 12, 2)
-    random_mining_wait2 = create_delay(7.5, 15, 2)
-    pyautogui.moveTo(1002, 412, duration=1.5, tween=pyautogui.easeInOutQuad)  # move to banker
+
+def mining(times_ran):
+    random_mining_wait1 = create_delay(15, 25, 2)
+    random_mining_wait2 = create_delay(13, 22, 2)
+    pyautogui.moveTo(919, 388, duration=1.5, tween=pyautogui.easeInOutQuad)
     pyautogui.click()
     time.sleep(random_mining_wait1)
 
-    if local_runs % 5 == 0:
-        pyautogui.press("1")
+    if times_ran % 5 == 0:
+        pyautogui.press("c")
 
-    pyautogui.moveTo(850, 577, duration=1.5, tween=pyautogui.easeInOutQuad)  # move to banker
+    pyautogui.moveTo(1141, 513, duration=1.5, tween=pyautogui.easeInOutQuad)
     pyautogui.click()
     time.sleep(random_mining_wait2)
-    local_runs += 1

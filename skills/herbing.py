@@ -3,7 +3,7 @@ import time
 from helpers.create_delay import create_delay
 
 
-def herbing():
+def herbing(times_ran):
     mouse_move = create_delay(1, 2, 2)
     pyautogui.moveTo(811, 419, duration=mouse_move, tween=pyautogui.easeInOutQuad)  # move to banker
     pyautogui.click()

@@ -1,5 +1,5 @@
 # Description
-This is a pack of scripts that can be run in certain places to maximise AFKability of certain skills while being away from the desktop entirely.
+This is a pack of scripts that can be run in certain places to maximise AFK-ability of certain skills while being away from the desktop entirely.
 
 ## Skills
 - Agility (Ape Atoll ONLY so far)
@@ -9,6 +9,9 @@ This is a pack of scripts that can be run in certain places to maximise AFKabili
 - Mining
 - Summoning
 - Woodcutting
+
+## Helper(s)
+- `py main.py -p (or --position)` will help in retrieving the current mouse location
 
 ## Setup
 You'll most likely need to manually change some of the values in these script(s) in order to get some of them to run. Especially the scripts that require pyautogui to interact with (x, y) co-ordinates on your screen (Agility). You can use the [pyautogui](https://pyautogui.readthedocs.io/en/latest/) documentation or worst case contact me on Discord for assistance (kJs-#2117).
@@ -21,5 +24,5 @@ While these scripts are simpler they still may require editing of the hotkeys as
 
 ## Usage
 Either listed scenario below works, one is simply shorthand while the other is longhand.
-- `py main.py --(fletching/woodcutting/summoning/cooking/mining/herbing/agility)`
-- `py main.py -(f/w/s/c/m/h/a)`
+- `py main.py --(fletching/woodcutting/summoning/cooking/mining/herbing/agility/position)`
+- `py main.py -(f/w/s/c/m/h/a/p)`

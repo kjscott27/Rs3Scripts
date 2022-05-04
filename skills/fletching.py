@@ -3,7 +3,7 @@ import time
 from helpers.create_delay import create_delay
 
 
-def fletching():
+def fletching(times_ran):
     wait = create_delay(50, 57.5, 2)  # when cutting bows
     wait2 = create_delay(19.5, 22.5, 2)  # when stringing bows
     ui_wait = create_delay(1.5, 2, 2)

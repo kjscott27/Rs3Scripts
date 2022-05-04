@@ -3,7 +3,7 @@ import time
 from helpers.create_delay import create_delay
 
 
-def woodcutting():
+def woodcutting(times_ran):
     swing_sleep = create_delay(10.5, 15, 10)
     incense_delay = create_delay(33, 40, 10)
 
