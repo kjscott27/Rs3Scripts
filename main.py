@@ -10,15 +10,17 @@ def main(inputArg):
     times_ran = 0  # times the program has run --this should NOT need to be changed--
     time.sleep(1.5)  # time to get back into your game window
     try:
-        opts, args = getopt(inputArg, "fwscmhap", ["fletching",
-                                            "woodcutting",
-                                            "smithing",
-                                            "summoning",
-                                            "cooking",
-                                            "mining,",
-                                            "herbing",
-                                            "agility",
-                                            "position"])
+        opts, args = getopt(inputArg, "fwscmhapz", ["fletching",
+                                                    "woodcutting",
+                                                    "smithing",
+                                                    "summoning",
+                                                    "cooking",
+                                                    "mining,",
+                                                    "herbing",
+                                                    "agility",
+                                                    "position",
+                                                    "combat,"
+                                                    "click"])
     except GetoptError as err:
         print(err)
         usage_message()

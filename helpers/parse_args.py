@@ -1,7 +1,7 @@
 from helpers.usage_message import usage_message
 from helpers.get_location import get_location
 import sys
-from skills import agility, cooking, fletching, herbing, mining, summoning, woodcutting, smithing
+from skills import agility, cooking, fletching, herbing, mining, summoning, woodcutting, smithing, combat, click
 
 
 def parse_args(argument):
@@ -23,6 +23,10 @@ def parse_args(argument):
         module = agility.agility
     elif argument in ('-p', '--position'):
         module = get_location
+    elif argument in ('-q', '--combat'):
+        module = combat.combat
+    elif argument in ('-z', '--click'):
+        module = click.click
     else:
         usage_message()
         sys.exit(2)
